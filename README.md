@@ -18,19 +18,19 @@ Usage: java -jar onair-nlp.jar lang inputFile outputFile encoding
 
 # Example
 
-To analyze a UTF-8 English document: `java -jar onair-nlp.jar en in.txt out.txt UTF-8`
+To analyze an UTF-8 English document: `java -jar onair-nlp.jar en in.txt out.txt UTF-8`
 
-To analyze a UTF-8 Portuguese document: `java -jar onair-nlp.jar pt in.txt out.txt UTF-8`
+To analyze an UTF-8 Portuguese document: `java -jar onair-nlp.jar pt in.txt out.txt UTF-8`
 
 # Sample output
 
 Column 1: lexeme
 
-Column 2: lemma (Portuguse only)
+Column 2: lemma (Portuguese only)
 
 Column 3: POS tag
 
-Column 4: Features (Portuguse only)
+Column 4: Features (Portuguese only)
 
 Column 5: Chunks
 
