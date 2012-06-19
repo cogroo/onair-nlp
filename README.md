@@ -25,9 +25,13 @@ To analyze a UTF-8 Portuguese document: `java -jar onair-nlp.jar pt in.txt out.t
 # Sample output
 
 Column 1: lexeme
+
 Column 2: lemma (Portuguse only)
+
 Column 3: POS tag
+
 Column 4: Features (Portuguse only)
+
 Column 5: Chunks
 
 ```
