@@ -1,7 +1,7 @@
 OnAIR-nlp
 =========
 
-An NLP tool that will be used by [OnAIR](http://ccsl.ime.usp.br/pt-br/onair) project. It reads an input file formatted such as each line represents a sentence and outputs its analysis.
+A NLP tool that will be used by [OnAIR](http://ccsl.ime.usp.br/pt-br/onair) project. It reads an input file formatted such as each line represents a sentence and outputs its analysis.
 
 The core NLP library used is [Apache OpenNLP](http://opennlp.apache.org), wrapped by [CoGrOO](http://cogroo.sourceforge.net) API, as well as some CoGrOO tools, like the Featurizer and Lemmatizer. English models are provided by OpenNLP, while Portuguese models are provided by CoGrOO.
 
