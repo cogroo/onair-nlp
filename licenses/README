@@ -1,0 +1,9 @@
+OnAIR-NLP is published under the Apache License 2.0, expect for the English models 
+that are not suitable for commercial use. Please refer to Apache OpenNLP documentation for details.
+For more detailed license information, see LICENSE and NOTICE.
+
+This is the list of libraries used by OnAIR-NLP and their licenses:
+
+cogroo-*.jar: Apache License 2.0, http://cogroo.sf.net
+opennlp-*.jar: Apache License 2.0, http://opennlp.apache.org
+morfologik-*.jar: Morfologik-license.txt, http://morfologik.blogspot.com, http://www.cs.put.poznan.pl/dweiss

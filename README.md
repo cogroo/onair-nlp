@@ -59,3 +59,7 @@ The tagset is derived from [Floresta tag set](http://beta.visl.sdu.dk/visl/pt/sy
 
 ## English
 [Penn Treebank tag set](http://www.ims.uni-stuttgart.de/projekte/CorpusWorkbench/CQP-HTMLDemo/PennTreebankTS.html)
+
+# License
+
+OnAIR-NLP is published under the Apache License 2.0, expect for the English models that are not suitable for commercial use. Please refer to [Apache OpenNLP downloads](http://opennlp.apache.org/cgi-bin/download.cgi) documentation for details on this.
