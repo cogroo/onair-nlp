@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>onair</groupId>
 	<artifactId>onair-nlp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<repositories>
 		<repository>
@@ -43,6 +43,29 @@
 					</descriptorRefs>
 					<finalName>onair-nlp</finalName>
 					<appendAssemblyId>false</appendAssemblyId>
+				</configuration>
+				<executions>
+					<execution>
+						<id>exec-jar</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>			
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>downloads-maven-plugin</artifactId>
+				<version>0.6</version>
+				<configuration>
+					<repositoryName>onair-nlp</repositoryName>
+					<repositoryOwner>cogroo</repositoryOwner>
+					<description>${project.version} release of ${project.name} - executable jar file</description>
+					<override>true</override>
+					<includes>
+						<include>onair-nlp.jar</include>
+					</includes>
 				</configuration>
 			</plugin>
 		</plugins>
