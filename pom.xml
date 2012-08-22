@@ -4,6 +4,10 @@
 	<groupId>onair</groupId>
 	<artifactId>onair-nlp</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
+	
+	<properties>
+		<github.global.server>github</github.global.server>
+	</properties>
 
 	<repositories>
 		<repository>
