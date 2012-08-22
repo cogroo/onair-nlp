@@ -164,22 +164,22 @@ public class Analyzer {
             // we handle it here...
             String[] parts = coverred.split("\\s+");
             String tag = "B-" + pos; 
-                 
+            
             for (String tok : parts) {
-              output.append(String.format("%-15s %-12s %-6s %-10s %-6s\n", tok,
-                  "[" + tok + "]", tag, feat, chunk));
+              String out = String.format("%-15s %-12s %-6s %-10s %-6s\n", tok,
+                  "[" + tok + "]", tag, feat, chunk);
+              output.append(out);
               
               tag = "I-" + pos;
               chunk = chunk.replace("B-", "I-");
             }
-            
           }
-          
         }
         
         if(!isMWE) {
-          output.append(String.format("%-15s %-12s %-6s %-10s %-6s\n", lexeme,
-              lemmas, pos, feat, chunk));
+          String out = String.format("%-15s %-12s %-6s %-10s %-6s\n", lexeme,
+              lemmas, pos, feat, chunk);
+          output.append(out);
         }
       }
 
